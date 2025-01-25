@@ -1,6 +1,10 @@
 cask_args appdir: '/Applications'
 
+tap 'homebrew/cask'
+tap 'buo/cask-upgrade'
+brew "mas"
 tap 'homebrew/bundle'
+tap 'homebrew/cask-fonts'
 
 # System Tools
 brew 'git'
