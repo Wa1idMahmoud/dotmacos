@@ -166,7 +166,7 @@ alias rd="kubectx rancher-desktop"
 alias dd="kubectx docker-desktop"
 export do="--dry-run=client -o yaml"
 
-alias do="--dry-run=client -o yaml"
+# alias do="--dry-run=client -o yaml"
 alias now="--force --grace-period=0"
 alias argoip="kubectl get svc argocd-server -n argocd -o jsonpath='{.spec.clusterIP}'"
 alias argopass="kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath='{.data.password}' | base64 --decode"
