@@ -124,3 +124,52 @@ Auto SYNCH Command:
 update-zshrc
 ```
 ---
+
+## Generate SSH Key
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+Once Generated:
+The keys will be saved as:
+```bash
+Private Key: ~/.ssh/id_rsa
+Public Key: ~/.ssh/id_rsa.pub
+```
+
+Copy Public Key to Clipboard (MacOS):
+```bash
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+Copy Public Key to Clipboard (Linux):
+```bash
+xclip -sel clip < ~/.ssh/id_rsa.pub
+```
+
+---
+## DEV Links
+
+Daily websites I use:
+
+- [Crontab Guru](https://crontab.guru/#*_*_*_*_*)
+
+- [CIDR IP ADDRESS](https://cidr.xyz/)
+
+- [DevDocs](https://devdocs.io/)
+
+- [ShellCheck](https://www.shellcheck.net/)
+
+- [JSONLint](https://jsonlint.com/)
+
+- [YAMLLint](https://www.yamllint.com/)
+
+- [CyberChef](https://gchq.github.io/CyberChef/)
+
+- [HTTPie](https://httpie.io/)
+
+- [TLDR](https://tldr.sh/)
+
+- [Diagrams.net](https://app.diagrams.net/)
+
+- [Markdown <img src="https://markdowneditor.org/images/favicon-32x32.png" style="vertical-align: middle;">](https://markdowneditor.org)
