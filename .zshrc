@@ -120,6 +120,7 @@ alias his='history | tail -n 100'
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 # directory
+alias dotmacos="cd ~/Documents/dotmacos"
 alias code="cd ~/Documents/code"
 alias docs="cd ~/Documents"
 alias desk="cd ~/Desktop"
