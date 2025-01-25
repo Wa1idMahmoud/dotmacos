@@ -119,6 +119,14 @@ alias psaux='ps aux | grep'
 alias his='history | tail -n 100'
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
+# directory
+alias code="cd ~/Documents/code"
+alias docs="cd ~/Documents"
+alias desk="cd ~/Desktop"
+alias down="cd ~/Downloads"
+alias bc="cd -"
+alias codealias="code ~/.zshrc"
+
 # K8s
 alias k='kubectl' 
 alias kx='kubectx'
