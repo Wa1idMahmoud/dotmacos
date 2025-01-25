@@ -39,3 +39,27 @@ Link: [ohmyz.sh](https://ohmyz.sh/)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+Clone the repository:
+
+```bash
+git clone https://github.com/Wa1idMahmoud/dotmacos.git
+```
+
+Navigate into the cloned directory:
+
+```bash
+cd dotmacos
+```
+
+Copy the .zshrc file from the repository to your home directory:
+
+```bash
+cp .zshrc ~/.zshrc
+```
+
+Apply the changes from the .zshrc file:
+
+```bash
+source ~/.zshrc
+```
+
