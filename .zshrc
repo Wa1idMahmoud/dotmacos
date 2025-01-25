@@ -121,11 +121,12 @@ alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pa
 
 # directory
 alias dotmacos="cd ~/Documents/dotmacos"
-alias code="cd ~/Documents/code"
+alias coder="cd ~/Documents/code"
 alias docs="cd ~/Documents"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"
 alias bc="cd -"
+
 # K8s
 alias k='kubectl' 
 alias kx='kubectx'
