@@ -120,12 +120,13 @@ alias his='history | tail -n 100'
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 # directory
-alias dotmacos="cd ~/Documents/dotmacos"
+alias dotrepo="cd ~/Documents/dotmacos"
 alias coder="cd ~/Documents/code"
 alias docs="cd ~/Documents"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"
 alias bc="cd -"
+alias codeal="code ~/.zshrc"
 
 # K8s
 alias k='kubectl' 
