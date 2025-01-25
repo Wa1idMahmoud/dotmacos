@@ -126,8 +126,6 @@ alias docs="cd ~/Documents"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"
 alias bc="cd -"
-alias codealias="code ~/.zshrc"
-
 # K8s
 alias k='kubectl' 
 alias kx='kubectx'
