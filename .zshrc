@@ -116,7 +116,7 @@ alias myip='curl http://ipecho.net/plain; echo'
 alias disk='df -h'
 alias mem='free -m'
 alias psaux='ps aux | grep'
-alias hist='history | tail -n 100'
+alias his='history | tail -n 100'
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 # K8s

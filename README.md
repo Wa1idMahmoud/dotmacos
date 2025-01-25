@@ -63,3 +63,8 @@ Apply the changes from the .zshrc file:
 source ~/.zshrc
 ```
 
+Auto SYNCH Command:
+
+```bash
+update-zshrc
+```
