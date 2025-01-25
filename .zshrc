@@ -73,7 +73,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 plugins=(z, zsh-autosuggestions)
-eval "$(starship init zsh)"
 
 source $ZSH/oh-my-zsh.sh
 
