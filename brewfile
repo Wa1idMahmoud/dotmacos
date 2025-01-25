@@ -1,6 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/cask'
 tap 'buo/cask-upgrade'
 brew "mas"
 tap 'homebrew/bundle'
@@ -154,7 +153,7 @@ vscode 'streetsidesoftware.code-spell-checker' # Code Spell Checker
 vscode 'amazonwebservices.aws-toolkit-vscode'  # AWS Toolkit
 vscode 'ms-vscode.azure-account'               # Azure Account
 vscode 'ms-azuretools.vscode-azureappservice'  # Azure App Service
-vscode 'ms-vscode.vscode-azurecli'             # Azure CLI Tools
+vscode 'ms-vscode.azurecli'                    # Azure CLI Tools
 vscode 'ms-azuretools.vscode-cosmosdb'         # Azure Database
 vscode 'ms-azuretools.azure-dev'               # Azure Developer CLI
 vscode 'ms-azuretools.vscode-azurefunctions'   # Azure Functions
