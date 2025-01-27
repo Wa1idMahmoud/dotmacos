@@ -81,7 +81,11 @@ Remove all packages not listed in the local Brewfile:
 ```bash
 brew bundle cleanup
 ```
+Optimising Homebrew:
 
+```bash
+brew update && brew upgrade && brew doctor && brew cleanup
+```
 
 ---
 ## Install oh-my-zsh

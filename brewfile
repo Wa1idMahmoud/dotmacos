@@ -148,6 +148,12 @@ cask 'notion'
 cask 'docker'
 cask 'obs'
 cask 'bitwarden'
+cask 'figma'
+cask 'drawio'
+cask 'insomnia'
+cask 'postman'
+
+
 
 vscode 'streetsidesoftware.code-spell-checker' # Code Spell Checker
 vscode 'amazonwebservices.aws-toolkit-vscode'  # AWS Toolkit
