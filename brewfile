@@ -156,58 +156,58 @@ cask 'postman'
 
 
 
-vscode 'streetsidesoftware.code-spell-checker' # Code Spell Checker
-vscode 'amazonwebservices.aws-toolkit-vscode'  # AWS Toolkit
-vscode 'ms-vscode.azure-account'               # Azure Account
-vscode 'ms-azuretools.vscode-azureappservice'  # Azure App Service
-vscode 'ms-vscode.azurecli'                    # Azure CLI Tools
-vscode 'ms-azuretools.vscode-cosmosdb'         # Azure Database
-vscode 'ms-azuretools.azure-dev'               # Azure Developer CLI
-vscode 'ms-azuretools.vscode-azurefunctions'   # Azure Functions
-vscode 'ms-azuretools.vscode-azurestaticwebapps' # Azure Static Web Apps
-vscode 'ms-azuretools.vscode-azurestorage'     # Azure Storage
-vscode 'ms-azuretools.vscode-azureterraform'   # Azure Terraform
-vscode 'ms-azuretools.vscode-azurevirtualmachines' # Azure Virtual Machines
-vscode 'aaron-bond.better-comments'            # Better Comments
-vscode 'alefragnani.Bookmarks'                 # Bookmarks
-vscode 'chouzz.vscode-better-align'                      # Bracket Lens
-vscode 'twxs.cmake'                            # CMake
-vscode 'ms-vscode.cmake-tools'                 # CMake Tools
-vscode 'ms-vscode-remote.remote-containers'    # Dev Containers
-vscode 'ms-azuretools.vscode-docker'           # Docker
-vscode 'IgorSbitnev.error-gutters'             # Error Gutters
-vscode 'ryu1kn.partial-diff'                   # Git Diff and Merge Tool
-vscode 'donjayamanne.git-extension-pack'       # Git Extension Pack
-vscode 'mhutchie.git-graph'                    # Git Graph
-vscode 'donjayamanne.githistory'               # Git History
-vscode 'felipecaputo.git-project-manager'      # Git Project Manager
-vscode 'codezombiech.gitignore'                # gitignore
-vscode 'GitLab.gitlab-workflow'                # GitLab Workflow
-vscode 'eamodio.gitlens'                       # GitLens - Git Supercharged
-vscode 'golang.go'                             # Go
-vscode 'hashicorp.terraform'                   # HashiCorp Terraform
-vscode 'ms-python.isort'                       # isort (Python)
-vscode 'ZainChen.json'                         # JSON
-vscode 'ms-toolsai.jupyter'                    # Jupyter
-vscode 'ms-toolsai.vscode-jupyter-cell-tags'   # Jupyter Cell Tags
-vscode 'ms-toolsai.jupyter-keymap'             # Jupyter Keymap
-vscode 'ms-toolsai.jupyter-renderers'          # Jupyter Notebook Renderers
-vscode 'ms-toolsai.vscode-jupyter-slideshow'   # Jupyter Slide Show
-vscode 'ms-kubernetes-tools.vscode-kubernetes-tools' # Kubernetes
-vscode 'ritwickdey.LiveServer'                 # Live Server
-vscode 'ms-vscode.makefile-tools'              # Makefile Tools
-vscode 'DavidAnson.vscode-markdownlint'        # Markdownlint
-vscode 'yzhang.markdown-all-in-one'            # Markdown All in One
-vscode 'shd101wyy.markdown-preview-enhanced'   # Markdown Preview Enhanced
-vscode 'ms-python.vscode-pylance'              # Pylance
-vscode 'ms-python.python'                      # Python
-vscode 'ms-python.debugpy'                     # Python Debugger
-vscode 'msjsdiag.vscode-react-native'          # React Native Tools
-vscode 'humao.rest-client'                     # REST Client
-vscode 'mgtrrz.terraform-completer'             # Terraform Completer
-vscode 'denwin.terraform-extension-pack' # Terraform Extension Pack
-vscode 'redhat.vscode-yaml'                    # YAML (Red Hat)
-vscode 'GitHub.copilot'                        # GitHub Copilot
+vscode 'streetsidesoftware.code-spell-checker'
+#vscode 'amazonwebservices.aws-toolkit-vscode'  #useless 
+vscode 'ms-vscode.azure-account'               
+vscode 'ms-azuretools.vscode-azureappservice'  
+vscode 'ms-vscode.azurecli'                    
+vscode 'ms-azuretools.vscode-cosmosdb'         
+vscode 'ms-azuretools.azure-dev'               
+vscode 'ms-azuretools.vscode-azurefunctions'   
+vscode 'ms-azuretools.vscode-azurestaticwebapps'
+vscode 'ms-azuretools.vscode-azurestorage'     
+vscode 'ms-azuretools.vscode-azureterraform'   
+vscode 'ms-azuretools.vscode-azurevirtualmachines'
+vscode 'aaron-bond.better-comments'            
+vscode 'alefragnani.Bookmarks'                 
+vscode 'chouzz.vscode-better-align'
+vscode 'twxs.cmake' 
+vscode 'ms-vscode.cmake-tools' 
+vscode 'ms-vscode-remote.remote-containers' 
+vscode 'ms-azuretools.vscode-docker' 
+vscode 'IgorSbitnev.error-gutters' 
+vscode 'ryu1kn.partial-diff' 
+vscode 'donjayamanne.git-extension-pack' 
+vscode 'mhutchie.git-graph' 
+vscode 'donjayamanne.githistory' 
+vscode 'felipecaputo.git-project-manager' 
+vscode 'codezombiech.gitignore' 
+vscode 'GitLab.gitlab-workflow' 
+vscode 'eamodio.gitlens' 
+vscode 'golang.go'
+vscode 'hashicorp.terraform'
+vscode 'ms-python.isort'
+vscode 'ZainChen.json' 
+vscode 'ms-toolsai.jupyter'
+vscode 'ms-toolsai.vscode-jupyter-cell-tags'
+vscode 'ms-toolsai.jupyter-keymap' 
+vscode 'ms-toolsai.jupyter-renderers' 
+vscode 'ms-toolsai.vscode-jupyter-slideshow'
+vscode 'ms-kubernetes-tools.vscode-kubernetes-tools'
+vscode 'ritwickdey.LiveServer' 
+vscode 'ms-vscode.makefile-tools'
+vscode 'DavidAnson.vscode-markdownlint' 
+vscode 'yzhang.markdown-all-in-one' 
+vscode 'shd101wyy.markdown-preview-enhanced'
+vscode 'ms-python.vscode-pylance'
+vscode 'ms-python.python'
+vscode 'ms-python.debugpy'
+vscode 'msjsdiag.vscode-react-native'
+vscode 'humao.rest-client'
+vscode 'mgtrrz.terraform-completer'
+vscode 'denwin.terraform-extension-pack'
+vscode 'redhat.vscode-yaml'
+vscode 'GitHub.copilot'
 vscode 'yzhang.markdown-all-in-one'
 vscode 'run-at-scale.terraform-doc-snippets'
 vscode 'ms-vscode.powershell'

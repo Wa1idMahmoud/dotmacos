@@ -103,6 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------
 #SYNC GitHub .zshrc to Local .zshrc
 alias update-zshrc="cd ~/Documents/dotmacos && git pull && cp .zshrc ~/.zshrc && source ~/.zshrc && echo '✅ .zshrc updated and sourced from GitHub!'"
 
