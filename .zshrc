@@ -189,7 +189,7 @@ alias argopass="kubectl get secret argocd-initial-admin-secret -n argocd -o json
 # Helm
 alias hdda='helm list --all-namespaces -q | while read -r release; do helm uninstall "$release" --namespace "$(helm list --all-namespaces | grep "$release" | awk '{print $2}')" ; done'
 alias hlsns='helm ls --all-namespaces'
-alias h='helm'
+alias hm='helm'
 alias hin='helm install'
 alias hup='helm upgrade'
 alias hdel='helm delete'
@@ -234,6 +234,7 @@ DEFAULT_ROOT_PWD=mypassword
 
 # AWS
 alias aws-who='aws sts get-caller-identity'
+
 
 # Git
 alias gi='git init'
@@ -336,4 +337,3 @@ alias build="aws-vault exec cst-build --"
 alias logging="aws-vault exec cst-logging --"
 alias windows-sandbox-admin="aws-vault exec windows-sandbox-admin --"
 alias central-security="aws-vault exec co-aws-central-security --"
-
